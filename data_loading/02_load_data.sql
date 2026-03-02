@@ -1,0 +1,49 @@
+
+LOAD DATA LOCAL INFILE 'C:/Users/HP/Desktop/OrderFlow/data/customers.csv'
+INTO TABLE customers
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/HP/Desktop/OrderFlow/data/restaurants.csv'
+INTO TABLE restaurants
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/HP/Desktop/OrderFlow/data/riders.csv'
+INTO TABLE riders
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/HP/Desktop/OrderFlow/data/orders.csv'
+INTO TABLE orders
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/HP/Desktop/OrderFlow/data/deliveries.csv'
+INTO TABLE deliveries
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/HP/Desktop/OrderFlow/data/payments.csv'
+INTO TABLE payments
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+SELECT COUNT(*) FROM customers;
+SELECT COUNT(*) FROM restaurants;
+SELECT COUNT(*) FROM riders;
+SELECT COUNT(*) FROM orders;
+SELECT COUNT(*) FROM deliveries;
+SELECT COUNT(*) FROM payments;
