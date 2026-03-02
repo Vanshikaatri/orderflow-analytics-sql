@@ -162,8 +162,6 @@ Measured:
 
 # 📦 Dataset
 
-Small sample dataset included in /data.
-
 Full 1M+ synthetic dataset:
 
 👉 Download here: https://drive.google.com/drive/folders/1xrs7R7S6oYf8Uz3qUdRVfdnU-YY0ntR_?usp=sharing
